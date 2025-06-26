@@ -6,7 +6,7 @@ import { Footer } from "./home-page/components/footer/footer";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavBar, Footer, HomePage],
+  imports: [RouterOutlet, HomePage],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true,
